@@ -1,0 +1,108 @@
+.searchBar img {
+    width: 50px;
+    height: 50px;
+    padding-top:5px;    
+    display: block;
+}
+.searchBar input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius:15px ;
+    width: 90%;
+}
+.searchBar {
+    padding-left:15px;
+    font-family: "Poppins",sans-serif ;    
+    border-bottom:1px solid black ;
+    background-color: lightgrey;   
+}
+.contactList button {
+  border: 0;
+  background-color: white;
+  margin: 0 auto;
+  padding: 10px;  
+  margin-left:10px ;
+}
+.contactList button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.contactList h4 {
+    padding-left:10px ;
+    font-family: 'Poppins',sans-serif;
+}
+.contact {    
+    height: 50px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    padding-left: 15px;
+    padding-top: 10px; 
+}
+.contact:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.col-4 {
+    padding: 0;
+    border-right:1px solid black ;
+    height: 100vh;
+}
+.col-8 {
+    padding: 0;
+}
+.row {
+margin-left: 0px;
+padding-left: 0px;
+padding-right: 0px;
+margin-right: 0px;
+}
+.msgInput {
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+.col-4 {
+    height: 100hv;
+}
+.right {
+    text-align: right;   
+    display: block;
+}
+.left {
+    text-align: left;
+    display: block;
+    margin-left: 10px;    
+}
+.chatHeader {
+    font-family: 'Poppins',sans-serif;
+    background-color: lightgrey;
+    padding-top: 5px ;
+    padding-bottom: 5px;
+}
+.chatHeader h4 {
+   padding-left: 15px;
+   margin-bottom: 10px;
+   margin-top: 15px;
+}
+
+
+.messageArea {
+  padding-left:15px;  
+  padding-right: 15px;
+}
+
+.messageArea input {
+    width: 700px ;
+    border-radius: 10px ;
+}
+.messageArea button {
+    margin-left: 10px;
+    border: 0;
+    border-radius: 10px;
+    padding-top: 5px;
+  
+}

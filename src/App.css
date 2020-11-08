@@ -1,38 +1,85 @@
-.App {
+.jumbotron {
+  min-height: 100vh;
+  margin-bottom: 0;
+  background-color: white;  
+  font-family: 'Poppins', sans-serif;
+}
+.jumbotron>div>h1 {
+  text-align: center;
+  margin-top: 10%;
+}
+.jumbotron>div>p {
+  text-align: center;
+  font-weight: 500;
+}
+.jumbotron>div>div {
+  text-align: center;
+  background-color: rgb(31, 211, 112);  
+}
+.jumbotron>div>div>button {
+  color: white;
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  font-weight: 500; 
+}
+.jumbotron>div>div>button:hover {
+  color: black;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.UserForm {
+  font-family: 'Poppins',sans-serif;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.UserForm>h1 {
+  background-color:white;
+  text-align: center;
+  margin-top: 25px;
+}
+.UserForm>div>label {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: 500;  
+}
+.UserForm>div>input {
+  display: block;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.UserForm>div>p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: red; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.UserForm>button {
+  background-color: black;
+  color: white !important;
+  border: none;
+  font-weight: 600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.UserForm>button:hover {
+  background-color: rgb(31, 211, 112) !important;
+  color: white !important;
+  transition: 0.5s;
 }
-
-.App-link {
-  color: #61dafb;
+  
+#backBtn{
+  position: absolute;
+  left: 0;
+  top: 15px;
+  background-color: inherit;
+  color: black !important;
+  border-radius: 0 !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#backBtn:hover {
+  background-color: inherit !important;
+  border-bottom: 1px solid black ;
+ 
 }
